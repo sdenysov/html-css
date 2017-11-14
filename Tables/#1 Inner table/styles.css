@@ -1,0 +1,21 @@
+td {
+    padding: 10px;
+    background-color: white;
+    text-align: left;
+    width: 150px;
+    height: 10px;
+}
+
+.menu {
+    background-color: gray;
+    text-align: left;
+    font-size: 15px;
+}
+
+.content {
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    text-align: left;
+    font-size: 18px;
+}
