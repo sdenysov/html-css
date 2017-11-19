@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+.main-grid {
+    background-color: cadetblue;
+}
+
+.title-def{
+    height: 70px;
+}
+
+.title-menu td {
+    width: calc(100% / 6);
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.left-menu {
+    vertical-align: top;
+}
+
+.left-menu table {
+    background-color: bisque;
+    width: 100%;
+}
+
+.left-menu table td {
+    text-align: left;
+    border-bottom: 3px solid cadetblue;
+}
+
+.content {
+    background-color: white;
+    vertical-align: top;
+}
+
+.content table {
+    height: 100%;
+}
+
+.content table td {
+    border: 2px solid black;
+    vertical-align: top
+}
