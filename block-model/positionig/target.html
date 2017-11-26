@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box.outer {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: darkred;
+            margin: 15px auto;
+        }
+
+        .box.inner {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            left: 50%;
+            top: 50%;
+            background-color: red;
+            margin-top: -75px;
+            margin-left: -75px;
+            border-radius: 50%;
+        }
+
+        .line.horizontal {
+            position: absolute;
+            width: 100px;
+            height: 10px;
+            background-color: white;
+            left: 50%;
+            top: 50%;
+            margin-top: -5px;
+            margin-left: -50px;
+        }
+
+        .line.vertical {
+            position: absolute;
+            width: 10px;
+            height: 100px;
+            background-color: white;
+            left: 50%;
+            top: 50%;
+            margin-top: -50px;
+            margin-left: -5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box outer">
+        <div class="box inner">
+            <div class="line horizontal"></div>
+            <div class="line vertical"></div>
+        </div>
+    </div>
+</body>
+</html>
