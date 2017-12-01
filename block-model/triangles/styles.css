@@ -1,0 +1,117 @@
+.figure-nr1-main {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+}
+
+.figure-nr1-triangle {
+    position: absolute;
+    border: 20px solid transparent;
+    border-top: 20px solid blue;
+    border-bottom: 0;
+    top: 100%;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.figure-nr2-main {
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: limegreen;
+    margin-top: 50px;
+}
+
+.figure-nr2-left-triangle {
+    position: absolute;
+    border: 20px solid transparent;
+    border-top: 20px solid limegreen;
+    border-right: 20px solid limegreen;
+    top: 50%;
+    margin-top: 30px;
+}
+
+.figure-nr2-right-triangle {
+    position: absolute;
+    border: 30px solid transparent;
+    border-left: 30px solid limegreen;
+    left: 100%;
+
+}
+
+.figure-nr3-main {
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: orange;
+    margin-top: 80px;
+}
+
+.figure-nr3-left-triangle {
+    position: absolute;
+    border: 30px solid transparent;
+    border-left: 30px solid white;
+}
+
+.figure-nr3-right-triangle {
+    position: absolute;
+    border: 30px solid transparent;
+    border-left: 30px solid orange;
+    left: 100%;
+}
+
+.figure-nr8-main {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    background-color: brown;
+    margin-left: 400px;
+    margin-top:-330px;
+}
+
+.figure-nr8-triangle {
+    position: absolute;
+    border: 125px solid transparent;
+    border-top: 30px solid brown;
+    border-bottom: 0 solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -125px;
+}
+
+.figure-nr9-outer {
+    position: relative;
+    width: 250px;
+    height: 125px;
+    background-color: #9dc9c6;
+    margin-left: 400px;
+    margin-top:50px;
+}
+
+.figure-nr9-triangle-outer {
+    position: absolute;
+    border: 30px solid transparent;
+    border-right: 30px solid #9dc9c6;
+    left: -50px;
+    top:25%;
+}
+
+.figure-nr9-inner {
+    position: absolute;
+    width: 240px;
+    height: 116px;
+    background-color: lightblue;
+    left: 50%;
+    top:50%;
+    margin-top: -58px;
+    margin-left: -120px;
+}
+
+.figure-nr9-triangle-inner {
+    position: absolute;
+    border: 20px solid transparent;
+    border-right: 20px solid lightblue;
+    left: -37px;
+    top:37px;
+}
