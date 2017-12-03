@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0;
+    width: 320px;
+}
+
+.horizontal-menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.horizontal-menu > li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    background-color: #a1b4f5;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.horizontal-menu li a:hover {
+    background-color: lightcyan;
+}
+
+.horizontal-menu > li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding: 0;
+}
+
+
