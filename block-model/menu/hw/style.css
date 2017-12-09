@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-menu {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    font-size: 0;
+    width: 260px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.horizontal-menu > li {
+    display: inline-block;
+    position: relative;
+}
+
+.horizontal-menu > li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    width: 80px;
+    background-color: lightgrey;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.horizontal-menu li a:hover, .drop-menu:hover {
+    background-color: lightcyan;
+}
+
+.drop-menu {
+    display: block;
+    width: 100px;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.drop-menu-triangle {
+    position: absolute;
+    border: 5px solid transparent;
+    border-top: 5px solid dimgray;
+    border-bottom: 0;
+    top: 50%;
+    left: 60%;
+    margin-left: 20px;
+}
+
+.horizontal-menu > li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu > li a:hover {
+    background-color: lightblue;
+}
+
+.sub-menu > li {
+    width: 100px;
+}
+
+.sub-menu > li a {
+    width: 170px;
+    background-color: lightgoldenrodyellow;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    border: 1px solid lightgrey;
+    top: 100%;
+    padding: 0;
+    width: 170px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.dropdown-line {
+    height: 5px;
+    border-top: 1px solid lightgrey;
+    background-color: lightgoldenrodyellow;
+    width: 170px;
+    padding-left: 5px;
+}
+
+.dropdown-shadow {
+    box-shadow: 0 0 10px;
+    color: lightgrey;
+}
