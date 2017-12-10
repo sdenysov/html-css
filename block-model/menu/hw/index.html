@@ -6,27 +6,21 @@
     <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<ul class="horizontal-menu">
-    <li><a href="#">Link</a></li>
-    <li>
-        <a href="#">Link</a>
-
-    </li>
-    <li class="drop-menu"><a href="#">Dropdown
-        <div class="drop-menu-triangle"></div>
-    </a>
-        <ul class="sub-menu dropdown-shadow">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <div class="dropdown-line"></div>
-            <li><a href="#">Separated link</a></li>
-            <div class="dropdown-line"></div>
-            <li><a href="#">One more separated link</a></li>
-        </ul>
-
-    </li>
-
-</ul>
+<nav>
+    <ul class="menu horizontal-menu">
+        <li><a href="#">Link</a></li>
+        <li><a href="#">Link</a></li>
+        <li class="drop-menu">
+            <a href="#" class="caret">Dropdown</a>
+            <ul class="menu sub-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li class="separator"><a href="#">Something else here</a></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="separator"><a href="#">One more separated link</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 </body>
 </html>
