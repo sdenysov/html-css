@@ -54,6 +54,42 @@ nav {
     vertical-align: middle;
 }
 
+.horizontal-menu li:hover .sub-menu {
+    display:block;
+}
+
 .sub-menu {
+    display: none;
     position: absolute;
+    border: 1px solid #BEBEBE;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    box-shadow: 0 0 10px #EAEAEA;
+}
+
+.sub-menu a {
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+.sub-menu a:hover {
+    background-color: #f5f5f5;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.separator::before {
+    display: block;
+    content: '';
+    margin: 5px 0;
+    border-top: 1px solid #E0E0E0;
+}
+
+.separator::after {
+    display: block;
+    content: '';
+    margin: 5px 0;
+    border-top: 1px solid #E0E0E0;
 }
