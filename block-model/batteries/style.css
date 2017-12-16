@@ -15,23 +15,29 @@
     background-color: black;
     width: 15px;
     height: 30px;
-    left:100%;
-    top:25%;
+    left: 100%;
+    top: 25%;
 }
 
-.low{
+.low::before {
+    display: block;
+    content: '';
     background-color: red;
     width: 50px;
     height: 100%;
 }
 
-.middle{
+.middle::before {
+    display: block;
+    content: '';
     background-color: yellow;
     width: 100px;
     height: 100%;
 }
 
-.full{
+.full::before {
+    display: block;
+    content: '';
     background-color: green;
     height: 100%;
 }
