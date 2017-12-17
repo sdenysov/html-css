@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .triangle-red {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 15px auto;
+        }
+
+        .triangle-green {
+            position: absolute;
+            border: 100px solid transparent;
+            border-bottom: 100px solid green;
+        }
+
+        .triangle-blue{
+            position: absolute;
+            border: 100px solid transparent;
+            border-left: 100px solid blue;
+        }
+
+        .triangle-orange{
+            position: absolute;
+            border: 100px solid transparent;
+            border-right: 100px solid orange;
+        }
+    </style>
+</head>
+<body>
+<div class="triangle-red">
+    <div class="triangle-green"></div>
+    <div class="triangle-blue"></div>
+    <div class="triangle-orange"></div>
+</div>
+</body>
+</html>
