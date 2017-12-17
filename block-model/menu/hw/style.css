@@ -83,7 +83,11 @@ nav {
     border-bottom-right-radius: 2px;
 }
 
+.sub-menu li:last-child > a {
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
 .separator {
-    margin: 5px 0;
     border-top: 1px solid #E0E0E0;
 }
