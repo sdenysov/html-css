@@ -1,0 +1,43 @@
+.battery {
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 8px solid black;
+    width: 150px;
+    height: 60px;
+}
+
+.battery::after {
+    display: block;
+    content: '';
+    position: absolute;
+    background-color: black;
+    width: 15px;
+    height: 30px;
+    left: 100%;
+    top: 25%;
+}
+
+.low::before {
+    display: block;
+    content: '';
+    background-color: red;
+    width: 50px;
+    height: 100%;
+}
+
+.middle::before {
+    display: block;
+    content: '';
+    background-color: yellow;
+    width: 100px;
+    height: 100%;
+}
+
+.full::before {
+    display: block;
+    content: '';
+    background-color: green;
+    height: 100%;
+}
